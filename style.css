@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+ body {
+
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url(./images/bg-1.jpg);
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+background-color: rgba(0, 0, 0, 0.82);
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.button1{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    background-color: rgb(232, 160, 26);
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 25px;
+    margin: 0;
+    padding: 10px 0px;
+    background-color: rgba(40, 39, 38, 0.423);
+    border-radius: 16px;
+    color: rgb(194, 136, 29) ;
+}
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
